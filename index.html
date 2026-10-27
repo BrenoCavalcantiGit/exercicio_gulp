@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Gulp</title>
+    <link rel="stylesheet" href="./dist/css/main.css">
+</head>
+<body>
+    <header class="hero">
+        <div>
+            <h1>Automação com Gulp</h1>
+            <p>SASS compilado, imagens comprimidas e JavaScript minificado</p>
+        </div>
+    </header>
+
+    <section class="aparecer">
+        <h2>O que o Gulp faz neste projeto</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>SASS</h3>
+                <p>Compila os arquivos .scss de <code>src/styles</code> para CSS comprimido.</p>
+            </div>
+            <div class="card">
+                <h3>Imagens</h3>
+                <p>Comprime as imagens de <code>src/images</code> com o gulp-imagemin.</p>
+            </div>
+            <div class="card">
+                <h3>JavaScript</h3>
+                <p>Minifica com uglify e ofusca com obfuscate o código de <code>src/scripts</code>.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="aparecer">
+        <h2>Galeria (imagens comprimidas)</h2>
+        <div class="galeria">
+            <figure><img src="./dist/images/coruja.jpg" alt="Coruja voando"><figcaption>Coruja</figcaption></figure>
+            <figure><img src="./dist/images/cisnes.jpg" alt="Cisnes no pôr do sol"><figcaption>Cisnes</figcaption></figure>
+            <figure><img src="./dist/images/borboleta.jpg" alt="Borboleta em flor"><figcaption>Borboleta</figcaption></figure>
+            <figure><img src="./dist/images/maos.png" alt="Duas mãos se alcançando"><figcaption>Mãos</figcaption></figure>
+            <figure><img src="./dist/images/lirios.jpg" alt="Lírios laranja"><figcaption>Lírios</figcaption></figure>
+            <figure><img src="./dist/images/rua.jpg" alt="Rua com neblina"><figcaption>Rua</figcaption></figure>
+        </div>
+    </section>
+
+    <footer>
+        <p>Exercício de Gulp &copy; <span id="ano"></span></p>
+    </footer>
+
+    <script src="./dist/js/main.js"></script>
+</body>
+</html>

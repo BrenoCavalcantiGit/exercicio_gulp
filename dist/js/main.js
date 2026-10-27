@@ -1,0 +1,1 @@
+var ಠ_ಠ131=document.querySelectorAll(".aparecer");function ಠ_ಠ133(){for(var ಠ_ಠ132=0;ಠ_ಠ132<ಠ_ಠ131.length;ಠ_ಠ132++)ಠ_ಠ131[ಠ_ಠ132].getBoundingClientRect().top<window.innerHeight-60&&ಠ_ಠ131[ಠ_ಠ132].classList.add("visivel")}window.addEventListener("scroll",ಠ_ಠ133),window.addEventListener("load",ಠ_ಠ133),document.getElementById("ano").ಠ_ಠ134=(new Date).getFullYear();
